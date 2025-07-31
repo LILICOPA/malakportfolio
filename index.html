@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Malak Mestini</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <style>
+        header {
+          background: rgba(0, 0, 0, 0.8);
+          padding: 10px 0;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          z-index: 1000;
+        }
+        nav ul {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          padding: 0;
+          margin: 0;
+        }
+        nav ul li {
+          display: inline;
+        }
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+          font-size: 16px;
+          padding: 10px 15px;
+          transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+          color: #007bff;
+        }
+        
+      </style>
+      
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#activites-parascolaires">Activités Parascolaires</a></li>
+            <li><a href="#experiences-professionnelles">Expériences Professionnelles</a></li>
+            <li><a href="#interests">Centre d'intérêt</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+           
+          </ul>
+        </nav>
+      </header>
+    <style>
+        .hero-section {
+          background-image: url('bagscm.jpg');
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: rgb(8, 2, 62);
+          text-align: center;
+        }
+        .hero-section h1 {
+          font-size: 48px;
+          margin-bottom: 10px;
+        }
+        .hero-section p {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+        .hero-section .btn {
+          background-color: #007bff;
+          color: white;
+          padding: 10px 20px;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        .hero-section .btn:hover {
+          background-color: #0056b3;
+        }
+      </style>
+      
+      <div class="hero-section">
+        <h1>Malak Mestini</h1>
+        <p><strong>Bienvenue dans mon portfolio !</strong></p>
+        <a href="#contact" class="btn">Me Contacter</a>
+      </div>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="me.jpg" alt="Malak Mestini">
+            </div>
+            <div class="about-content">
+                <h2> À propos de moi</h2>
+                <p>
+                    Je suis <strong>Malak Mestini</strong>, future ingénieure en <strong>Supply Chain Management</strong>, 
+                    passionnée par l'optimisation des processus et la gestion des flux logistiques.
+                </p>
+                <p>
+                    Avec une approche axée sur <strong>l’analyse des données</strong> et <strong>l’amélioration des performances</strong>, 
+                    je m’intéresse à la digitalisation de la chaîne d'approvisionnement et aux solutions innovantes pour optimiser la logistique.
+                </p>
+                <p class="objectif">
+                     <strong>Mon objectif ?</strong> Développer une expertise solide et apporter une réelle valeur aux entreprises en mettant en place des stratégies efficaces et durables.
+                </p>
+                <p>
+                     <strong>Curieuse, rigoureuse</strong> et toujours prête à relever de nouveaux défis, je crois fermement que 
+                    l’innovation et l’amélioration continue sont les clés du succès dans un monde en perpétuelle évolution.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="projets">
+        <h2> Mes Projets</h2>
+        <div class="projet-container">
+    
+            <div class="projet-card">
+                <img src="KPI.jpeg" alt="Projet KPI">
+                <div class="projet-content">
+                    <h3> Développement de KPI en infrastructure ferroviaire</h3>
+                    <p>Conception d’indicateurs de performance liés à la sécurité et à l’efficacité des opérations.</p>
+                    <a href="Projet_KPI.pdf" download class="btn">📥 Télécharger l'attestation</a>
+                </div>
+            </div>
+    
+            <div class="projet-card">
+                <img src="entrepot_agroalimentaire.jpeg" alt="Gestion des entrepôts">
+                <div class="projet-content">
+                    <h3> Gestion des entrepôts agroalimentaires</h3>
+                    <p>Modélisation UML et digitalisation des flux logistiques pour optimiser l’espace et la traçabilité.</p>
+                    <a href="http://malakportfolio.wuaze.com/Projet_ENTREPOT.pdf" class="btn">📥 Télécharger le document</a>
+                  </div>
+            </div>
+    
+            <div class="projet-card">
+                <img src="arena_port_img.png" alt="Simulation d'un port">
+                <div class="projet-content">
+                    <h3> Simulation d’un port logistique – ARENA</h3>
+                    <p>Modélisation des processus d’entrée/sortie des navires et des flux de marchandises.</p>
+                    <a href="Projet_ARENA_port.pdf" download class="btn">📥 Télécharger le rapport</a>
+                </div>
+            </div>
+    
+            <div class="projet-card">
+                <img src="Impact de l’IA sur le marché du travail.jpeg" alt="Impact IA">
+                <div class="projet-content">
+                    <h3> Impact de l’IA sur le marché du travail</h3>
+                    <p>Analyse des transformations du marché et des nouvelles compétences requises.</p>
+                </div>
+            </div>
+    
+            <div class="projet-card">
+                <img src="boussafou.png.jpg" alt="Rénovation orphelinat">
+                <div class="projet-content">
+                    <h3> Rénovation de l’orphelinat BOUSSAFOU</h3>
+                    <p>Coordination d’un projet humanitaire impliquant rénovation et animation éducative.</p>
+                    <a href="https://youtu.be/l53m8UOKFjo?si=jCUpnJJRk6aaynqX" target="_blank" class="btn">🎥 Voir la vidéo</a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    </section>
+    <section id="activites-parascolaires">
+        <h2>Activités Parascolaires</h2>
+        <div class="activites-container">
+            <div class="activite-card">
+                <img src="ENSART_IMG.jpg" alt="ENSART">
+                <div class="activite-content">
+                    <h3>Vice-présidente du club ENSART (2023/2024)</h3>
+                    <p>Organisation et coordination des événements culturels et artistiques de l’ENSA Tétouan.</p>
+                </div>
+            </div>
+    
+            <div class="activite-card">
+                <img src="DONDUSANG_img.jpg" alt="Don du sang">
+                <div class="activite-content">
+                    <h3>Comité d’organisation - Don du Sang - AFI (2021/2022)</h3>
+                    <p>Participation à l’organisation de l’événement en collaboration avec l’association des ingénieurs (AFI).</p>
+                </div>
+            </div>
+    
+            <div class="activite-card">
+                <img src="LOGISTICA_img .jpg" alt="LOGISTICA SCM">
+                <div class="activite-content">
+                    <h3>Comité d’organisation - Journée SCM - LOGISTICA (2024/2025)</h3>
+                    <p>Membre du comité média, gestion des activités parascolaires et animation d’événements académiques.</p>
+                </div>
+            </div>
+        </div>
+        <section id="experiences-professionnelles">
+            <h2>Expériences Professionnelles</h2>
+            <div class="experience-container">
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Stage d’observation - IM GEARS, Kénitra (31 juillet 2024)</h3>
+                        <span class="date">Durée : 1 mois</span>
+                    </div>
+        
+                    <div class="experience-content">
+                        <ul>
+                            <li> **Formation SAP** : Confirmation, facturation et approvisionnement.</li>
+                            <li> **Gestion logistique** : Coordination et leadership d’équipe.</li>
+                            <li> **Optimisation des processus** : Amélioration des flux de travail et gestion des stocks.</li>
+                            <li> **Collaboration** : Travail en équipe pour renforcer l’efficacité opérationnelle.</li>
+                        </ul>
+                    </div>
+        
+                    <button class="album-button" onclick="toggleAlbum()">📷 Voir l'album</button>
+        
+                    <div id="album" class="hidden">
+                        <img src="img1_stage.jpg" alt="Expérience IM GEARS 1" onclick="openLightbox(this)">
+                        <img src="img2_stage.jpg" alt="Expérience IM GEARS 2" onclick="openLightbox(this)">
+                        <img src="img3_stage.jpg" alt="Expérience IM GEARS 3" onclick="openLightbox(this)">
+                        <img src="img4_stage.jpg" alt="Expérience IM GEARS 4" onclick="openLightbox(this)">
+                    </div>
+                </div>
+        
+            </div>
+            <div class="section" id="interests">
+                <h2 class="section-title">Centre d'intérêt</h2>
+                <div class="hobby-container">
+                  <h3>Théâtre</h3>
+                  <button class="view-photos" onclick="openModal('theatre-modal')">Voir photos</button>
+                </div>
+                <div class="hobby-container">
+                  <h3>Randonnée (Hiking)</h3>
+                  <button class="view-photos" onclick="openModal('hiking-modal')">Voir photos</button>
+                </div>
+                <div class="hobby-container">
+                  <h3>Guitare</h3>
+                </div>
+              </div>
+            </div>
+
+              
+              <div id="theatre-modal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closeModal('theatre-modal')">&times;</span>
+                  <img src="thea2.jpg" alt="Théâtre 1">
+                  <img src="theatre.jpg" alt="Théâtre 2">
+                </div>
+              </div>
+              
+              <div id="hiking-modal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closeModal('hiking-modal')">&times;</span>
+                  <img src="hicking2.jpg" alt="Randonnée 1">
+                  <img src="hicking1.jpg" alt="Randonnée 2">
+                </div>
+              </div>
+              <div class="section" id="skills">
+                <h2 class="section-title">Compétences</h2>
+                <div class="skills-list">
+                  <ul>
+                    <li><strong>Gestion du temps</strong></li> 
+                    <li><strong>Communication</strong></li>
+                    <li><strong>Leadership</strong></li>
+                    <li><strong>Langages de programmation :</strong> Java, C, PL/SQL, VBA <br>
+                      <a href="java_certif.pdf" target="_blank" class="certification">📜 Certification Java obtenue</a>
+                    </li>
+                    <li><strong>Analyses et outils :</strong> Power BI, Minitab, ARENA, SAP <br>
+                      <a href="bi_certif.pdf" target="_blank" class="certification">📜 Certification Power BI obtenue</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+
+              <style>
+                #contact {
+                  background: #77a7d1; /* Bleu pour contraste */
+                  color: white;
+                  padding: 60px 20px;
+                  text-align: center;
+                  border-radius: 10px;
+                }
+                #contact h2 {
+                  font-size: 40px;
+                  margin-bottom: 25px;
+                  font-weight: bold;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  border-bottom: 3px solid white;
+                  display: inline-block;
+                  padding-bottom: 10px;
+                }
+                #contact-form {
+                  max-width: 500px;
+                  margin: auto;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 15px;
+                }
+                #contact-form input,
+                #contact-form textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: none;
+                  border-radius: 5px;
+                  font-size: 16px;
+                }
+                #contact-form input {
+                  height: 45px;
+                }
+                #contact-form textarea {
+                  height: 120px;
+                  resize: none;
+                }
+                #contact-form button {
+                  background-color: white;
+                  color: #007bff;
+                  padding: 12px;
+                  border: none;
+                  border-radius: 5px;
+                  font-size: 18px;
+                  font-weight: bold;
+                  cursor: pointer;
+                  transition: background 0.3s, color 0.3s;
+                }
+                #contact-form button:hover {
+                  background-color: #0056b3;
+                  color: white;
+                }
+                .contact-info {
+                  margin-top: 30px;
+                  font-size: 20px;
+                }
+                .contact-info p {
+                  margin: 10px 0;
+                  font-weight: bold;
+                }
+                .contact-info a {
+                  text-decoration: none;
+                  color: white;
+                  font-weight: bold;
+                }
+                .social-links {
+                  margin-top: 25px;
+                }
+                .social-links a {
+                  font-size: 28px;
+                  margin: 0 15px;
+                  color: white;
+                  transition: color 0.3s;
+                }
+                .social-links a:hover {
+                  color: #ffcc00;
+                }
+              </style>
+              
+              <section id="contact">
+                <h2>Me Contacter</h2>
+                
+                <div class="contact-info">
+                    <p>📧 <strong>Email :</strong> <a href="mailto:mestini.malak@etu.uae.ac.ma">mestini.malak@etu.uae.ac.ma</a></p>
+                    <p>📞 <strong>Téléphone :</strong> <a href="tel:+212642251896">0642251896</a></p>
+                </div>
+            
+                <div class="social-links">
+                    <p>🔗 <strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/malak-mestini-33918229b" target="_blank">Malak Mestini</a></p>
+                </div>
+            </section>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleAlbum() {
+            var album = document.getElementById("album");
+            if (album.classList.contains("hidden")) {
+                album.classList.remove("hidden");
+            } else {
+                album.classList.add("hidden");
+            }
+        }
+    
+        function openLightbox(img) {
+            var lightbox = document.getElementById("lightbox");
+            var lightboxImg = document.getElementById("lightbox-img");
+            lightboxImg.src = img.src;
+            lightbox.classList.remove("hidden");
+        }
+    
+        function closeLightbox() {
+            var lightbox = document.getElementById("lightbox");
+            lightbox.classList.add("hidden");
+        }
+        function openModal(id) {
+    document.getElementById(id).style.display = "flex";
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+  }
+
+  // Fermer le modal en cliquant en dehors du contenu
+  window.onclick = function(event) {
+    let modals = document.querySelectorAll(".modal");
+    modals.forEach(modal => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  };
+        
+    </script>
+    
+    
+</body>
+
+</html>
